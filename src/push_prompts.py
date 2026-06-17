@@ -97,7 +97,7 @@ def main():
     if not check_env_vars(required_vars):
         return 1
 
-    prompt_file = "../prompts/bug_to_user_story_v2.yml"
+    prompt_file = "prompts/bug_to_user_story_v2.yml"
 
     prompt_data = load_yaml(prompt_file)
 
